@@ -33,4 +33,12 @@ horoskop = function(imie, miesiac) {
 horoskop("Marek", 9)
 
 # ZADANIE 4 
+
 tekst3 = c("2019-03-11: 23.5, 19/03/12: 12.7, 2019.03.13: 11.1, 2019-marzec-14: 14.3")
+daty = str_sub(tekst3, start = c(1, 19, 35, 53), end = c(10, 26, 44, 66))
+daty
+
+# ZADANIE 5
+
+wartosci = str_sub(tekst3, start = c(13, 29, 47, 69), end = c(16, 32, 50, 72))
+wartosci
